@@ -1,0 +1,11 @@
+.active-head{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.inActive-head{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}

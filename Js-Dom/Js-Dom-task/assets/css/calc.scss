@@ -1,0 +1,62 @@
+.nums {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nums>input {
+  width: 27%;
+}
+
+
+.operators-basic {
+  display: flex;
+  background: red;
+  height: 39px;
+  width: 200px;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.operators>div {
+  @extend .operators-basic;
+}
+
+.operators {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 29px;
+  margin-bottom: 23px;
+  cursor: pointer;
+
+  .add {
+    background-color: skyblue;
+  }
+
+  .subtract {
+    background-color: red;
+  }
+
+  .multiply {
+    background-color: green;
+  }
+
+  .divide {
+    background-color: yellow;
+    color: black;
+  }
+
+}
+
+.result {
+  display: flex;
+  border: 1px solid;
+  color: black;
+  height: 31px;
+  width: 42%;
+  margin: auto;
+  align-items: center;
+
+}
